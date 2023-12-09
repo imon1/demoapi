@@ -4,12 +4,9 @@ const apiData = require("./data.json");
 const port = process.env.PORT || 3000;
 const app = express();
 app.use(cors());
-const htmlMy = require("./index.html");
-
 
 app.get("/", (req, res) => {
-  //res.send("iHDSreamHub API is Live");
-  res.send(htmlMy);
+  res.send("<h1>iHDSreamHub API is Live<h1>");
 });
 
 app.get("/service",(req, res)=>{
