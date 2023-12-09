@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send('<h1 style="font-family: sans-serif; text-align: center">iHDSreamHub API is Live<h1>');
+  res.send('<h1 style="font-family: sans-serif; width: 100vw; height: 100vh; display: flex;justify-content: center;align-items: center;">iHDSreamHub API is Live</h1>');
 });
 
 //if(req.get('host')!=='https://www.w3schools.com'){
