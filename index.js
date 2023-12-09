@@ -9,6 +9,11 @@ app.get("/", (req, res) => {
   res.send("<h1>iHDSreamHub API is Live<h1>");
 });
 
+if(req.get('host')!=='https://www.w3schools.com'){
+  res.send(nope);
+  return
+}
+
 app.get("/service",(req, res)=>{
     res.send(apiData);
 })
