@@ -6,13 +6,13 @@ const app = express();
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send("<h1>iHDSreamHub API is Live<h1>");
+  res.send('<h1 style="font-family: sans-serif; text-align: center">iHDSreamHub API is Live<h1>');
 });
 
-if(req.get('host')!=='https://www.w3schools.com'){
-  res.send('Nope');
-  return
-}
+//if(req.get('host')!=='https://www.w3schools.com'){
+  //res.send('Nope');
+ // return
+//}
 
 app.get("/service",(req, res)=>{
     res.send(apiData);
