@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "name": "T-Sports",
+    "link": 2,
+    "src": [
+      "https://tvs2.aynaott.com/tsportshd/tracks-v1a1/mono.m3u8?hdnts=st=1700538680~exp=1700581880~acl=/*~data=45.61.146.183-WEB~hmac=7537a03008de0eee3823bd7468fb7d14b5d9303fc7f8f1f34f2910c32955830b",
+      "http://103.102.27.173/live/tvfeed1001/index.m3u8",
+      "https://tvs2.aynaott.com/tsportshd/tracks-v1a1/mono.m3u8?hdnts=st=1700371296~exp=1700414496~acl=/*~data=45.61.146.183-WEB~hmac=8edcf634578451ada929ff80fd8fff2bd8200453f6efc0e48e3f75e3f4d10ebf",
+      "http://otv.ftpbd.net:8082/T-Sports-HD/tracks-v1a1/mono.m3u8",
+      "http://chanel.dekhaott.com/Tsportshd/tracks-v1a1/mono.m3u8",
+      "http://113.212.111.246:8080/hls/col12.m3u8",
+      "http://103.141.2.37:25461/live/web/web/586.m3u8"
+    ],
+    "track": true,
+    "track-1": [
+      "https://live.tsports.com/live/tsports_live_720/index.m3u8",
+      "https://live.tsports.com/live/tsports_live_480/index.m3u8",
+      "https://live.tsports.com/live/tsports_live_360/index.m3u8"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "T-Sports",
+    "link": 2,
+    "src": ["https:"]
+  }
+]
