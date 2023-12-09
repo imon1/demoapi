@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 });
 
 if(req.get('host')!=='https://www.w3schools.com'){
-  res.send(nope);
+  res.send('Nope');
   return
 }
 
